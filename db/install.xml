@@ -16,7 +16,7 @@
       </FIELDS>
       <KEYS>
         <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
-        <KEY NAME="issueid_fk" TYPE="foreign" FIELDS="issueid" REFTABLE="tool_certificate_issues" REFFIELDS="id"/>
+        <KEY NAME="issueid_fk" TYPE="foreign" FIELDS="issueid" REFTABLE="tool_certificate_issues" REFFIELDS="id" ONDELETE="cascade"/>
       </KEYS>
     </TABLE>
   </TABLES>
